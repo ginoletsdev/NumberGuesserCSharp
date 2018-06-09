@@ -40,8 +40,25 @@ namespace NumberGuesser
             {
                 // Get user guess input
                 string input = Console.ReadLine();
+
+                // make sure we're only accepting integers
+                if(!int.TryParse(input, out guess))
+                {
+                    // Change text color error
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    // Write error msg
+                    Console.WriteLine("Please enter an actual number");
+                    Console.ResetColor();
+
+                    // keep going
+                    continue;
+                }
+
+
                 // cast to int and put into guess
                 guess = Int32.Parse(input);
+
+                
 
                 // match guess to correct number
                 if(guess != correctNumber)
