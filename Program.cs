@@ -29,8 +29,9 @@ namespace NumberGuesser
             // Write user name
             Console.WriteLine("Hello {0}, let's play a game.", inputName);
 
-            // Set correct number
-            int correctNumber = 7;
+            // Create a new Random object
+            Random random = new Random();
+            int correctNumber = random.Next(1, 11);
 
             // init guess var
             int guess = 0;
