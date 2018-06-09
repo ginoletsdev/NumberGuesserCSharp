@@ -1,8 +1,8 @@
 # NumberGuesserCSharp
-Number Guesser
+Number Guesser<br/>
 
-Author: Gino Joseph
-Email: ginoletsdev@gmail.com
-Description: Number Gusser App
+Author: Gino Joseph <br/>
+Email: ginoletsdev@gmail.com<br/>
+Description: Number Guesser App<br/>
 
-Select a number between 1 and 10
+Select a number between 1 and 10<br/>
